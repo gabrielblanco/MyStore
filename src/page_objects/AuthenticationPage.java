@@ -15,8 +15,12 @@ public class AuthenticationPage {
     /**
      * Web element selectors.
      */
-    @FindBy (xpath = "")
-    WebElement signInBtn;
+    @FindBy (id = "email")
+    WebElement emailLogin;
+    @FindBy(id = "passwd")
+    WebElement passwordLogin;
+    @FindBy(id = "SubmitLogin")
+    WebElement btnSignIn;
 
     /**
      * Constructor method.
@@ -27,4 +31,23 @@ public class AuthenticationPage {
         PageFactory.initElements(driver, this);
     }
 
+    public void attemptToLogin(String email, String password){
+        typeEmail(email);
+        typePassword(password);
+        clickOnSignInBtn();
+    }
+
+    private void typeEmail(String email){
+        emailLogin.clear();
+        emailLogin.sendKeys(email);
+    }
+
+    private void typePassword(String password){
+        passwordLogin.clear();
+        passwordLogin.sendKeys(password);
+    }
+
+    private void clickOnSignInBtn(){
+        btnSignIn.click();
+    }
 }

@@ -2,19 +2,23 @@ package tests;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
+import page_objects.AuthenticationPage;
+import page_objects.HomePage;
 
 public class AuthenticationTest extends BaseTest {
 
     /**
-     * Web driver.
+     * Instances
      */
-    WebDriver driver;
+    HomePage homePage = new HomePage(getDriver());
+    AuthenticationPage authenticationPage = new AuthenticationPage(getDriver());
 
     /**
-     * Verify that a user can register.
+     * Verify that an invalid user can't login.
      */
-    @Test
-    public void registerTest(){
-
+    @Test()
+    public void attemptToLogin(String email, String password){
+        homePage.goToLogin();
+        authenticationPage.attemptToLogin(email, password);
     }
 }

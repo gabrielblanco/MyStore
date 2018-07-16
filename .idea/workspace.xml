@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cc1ce05-6a91-45b8-9294-eec160e2dc76" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyStore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyStoreAutomation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MyStoreAutomation/config/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MyStoreAutomation/page_objects/AuthenticationPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MyStoreAutomation/tests/AuthenticationTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MyStoreAutomation/tests/BaseTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page_objects/AuthenticationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/AuthenticationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page_objects/AuthenticationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/page_objects/AuthenticationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/AuthenticationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/AuthenticationTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tests/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="177">
@@ -45,11 +32,36 @@
       <file leaf-file-name="AuthenticationTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tests/AuthenticationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="211">
+              <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/page_objects/HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#389#390#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginDataProviders.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data_providers/LoginDataProviders.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -57,20 +69,22 @@
       <file leaf-file-name="AuthenticationPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/page_objects/AuthenticationPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+            <state relative-caret-position="315">
+              <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1090#1091#0" expanded="true" />
+                <element signature="e#1114#1115#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/config/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            <state relative-caret-position="170">
+              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -90,10 +104,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/page_objects/AuthenticationPage.java" />
-        <option value="$PROJECT_DIR$/src/tests/AuthenticationTest.java" />
         <option value="$PROJECT_DIR$/src/config/testng.xml" />
         <option value="$PROJECT_DIR$/src/tests/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/data_providers/LoginDataProviders.java" />
+        <option value="$PROJECT_DIR$/src/page_objects/AuthenticationPage.java" />
+        <option value="$PROJECT_DIR$/src/page_objects/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/tests/AuthenticationTest.java" />
       </list>
     </option>
   </component>
@@ -112,7 +128,9 @@
     <option name="width" value="1382" />
     <option name="height" value="754" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -135,6 +153,12 @@
               <item name="MyStoreAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyStoreAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyStoreAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyStoreAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="page_objects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyStoreAutomation" type="b2602c69:ProjectViewProjectNode" />
@@ -262,7 +286,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531679576522</updated>
-      <workItem from="1531679590147" duration="7366000" />
+      <workItem from="1531679590147" duration="9786000" />
     </task>
     <servers />
   </component>
@@ -276,9 +300,18 @@
     <history-entry file="C__Users_gabri_IdeaProjects_MyStoreAutomation_src_config_testng_xml - 2018.07.15 at 18h 03m 21s.xml">
       <configuration name="C:/Users/gabri/IdeaProjects/MyStoreAutomation/src/config/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__Users_gabri_IdeaProjects_MyStoreAutomation_src_config_testng_xml - 2018.07.15 at 18h 48m 39s.xml">
+      <configuration name="C:/Users/gabri/IdeaProjects/MyStoreAutomation/src/config/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_gabri_IdeaProjects_MyStoreAutomation_src_config_testng_xml - 2018.07.15 at 18h 54m 25s.xml">
+      <configuration name="C:/Users/gabri/IdeaProjects/MyStoreAutomation/src/config/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_gabri_IdeaProjects_MyStoreAutomation_src_config_testng_xml - 2018.07.15 at 19h 00m 28s.xml">
+      <configuration name="C:/Users/gabri/IdeaProjects/MyStoreAutomation/src/config/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7366000" />
+    <option name="totallyTimeSpent" value="9786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -294,7 +327,7 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290938" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
@@ -305,7 +338,7 @@
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3990461" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990461" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -321,33 +354,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/page_objects/AuthenticationPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/AuthenticationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -357,6 +363,56 @@
             <element signature="e#308#309#0" expanded="true" />
             <element signature="e#337#338#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page_objects/AuthenticationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="e#1114#1115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data_providers/LoginDataProviders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page_objects/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/AuthenticationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
         </state>
       </provider>
     </entry>
